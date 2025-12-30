@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ありがとう</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      /* めでたい背景（紅・白・金） */
+      background: linear-gradient(
+        135deg,
+        #e60026,
+        #ffffff,
+        #ffd700
+      );
+
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .message {
+      font-size: clamp(2.5rem, 8vw, 4.5rem); /* スマホ対応でデカい */
+      font-weight: 800;
+      color: #b8001f;
+      text-shadow:
+        2px 2px 0 #ffffff,
+        4px 4px 10px rgba(0,0,0,0.2);
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="message">
+    優しいわね😘😘<br>
+    お気持ちありがとう
+  </div>
+</body>
+</html>
